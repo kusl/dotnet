@@ -10,6 +10,6 @@ namespace ConsoleApplication
             Id = 1,
             Name = "BillG",
             Email = "billg@microsoft.com"
-        }
+        };
     }
 }
