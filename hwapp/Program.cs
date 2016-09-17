@@ -10,7 +10,7 @@ namespace ConsoleApplication
             Console.WriteLine("Hello " + person.Name + "! ");
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(person.Email);
             }
         }
     }
