@@ -4,7 +4,6 @@ before_script:
 build:hwapp:
   script:
   - cd hwapp && dotnet restore && dotnet run
-  - cd ../unit-testing-using-dotnet-test/src/PrimeService && dotnet restore
 test:unittest:
   script:
   - cd unit-testing-using-dotnet-test/src/PrimeService && dotnet restore
