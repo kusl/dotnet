@@ -5,4 +5,4 @@ test:app:
   script:
   - cd hwapp && dotnet restore && dotnet run
   - cd ../unit-testing-using-dotnet-test/src/PrimeService && dotnet restore
-  - cd ../unit-testing-using-dotnet-test/test/PrimeService.Tests && dotnet restore && dotnet test
+  - cd ../../../unit-testing-using-dotnet-test/test/PrimeService.Tests && dotnet restore && dotnet test
