@@ -7,6 +7,7 @@ set -xe
 
 # Install git (the php image doesn't have it) which is required by composer
 apt-get update -yqq
+apt-get upgrade -yqq
 apt-get install git -yqq
 #install dotnet 
 apt-get install curl libunwind8 gettext -yqq
