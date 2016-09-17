@@ -4,4 +4,4 @@ before_script:
 test:app:
   script:
   - cd hwapp && dotnet restore && dotnet run
-  - cd ../cd unit-testing-using-dotnet-test && dotnet restore && dotnet run
+  - cd ../unit-testing-using-dotnet-test && dotnet restore && dotnet run
