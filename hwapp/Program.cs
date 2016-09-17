@@ -9,6 +9,10 @@ namespace ConsoleApplication
             Person person = new Person();
             person.Name = "dude";
             Console.WriteLine("Hello " + person.Name + "! ");
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
