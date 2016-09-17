@@ -1,0 +1,6 @@
+image: debian
+before_script:
+- bash ci/docker_install.sh
+test:app:
+  script:
+  - cd hwapp && dotnet restore && dotnet run
