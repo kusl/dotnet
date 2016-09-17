@@ -7,9 +7,9 @@ namespace ConsoleApplication
         public string Email { get; set; }
         public Person()
         {
-            Id = 1,
-            Name = "Bill Gates",
-            Email = "billg@microsoft.com"
-        };
+            Id = 1;
+            Name = "Bill Gates";
+            Email = "billg@microsoft.com";
+        }
     }
 }
