@@ -7,7 +7,6 @@ namespace ConsoleApplication
         public static void Main(string[] args)
         {
             Person person = new Person();
-            person.Name = "dude";
             Console.WriteLine("Hello " + person.Name + "! ");
             for (int i = 0; i < 10; i++)
             {
