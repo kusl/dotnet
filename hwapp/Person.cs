@@ -8,7 +8,7 @@ namespace ConsoleApplication
         public Person()
         {
             Id = 1,
-            Name = "BillG",
+            Name = "Bill Gates",
             Email = "billg@microsoft.com"
         };
     }
